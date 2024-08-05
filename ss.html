@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Slide Show
+</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body style="background-color: white">
+
+<div class="w3-content w3-section" style="width: 800px;">
+<img class="mySlides w3-animate-left" src="C:\Users\ELCOT\Downloads\jess-bailey-q10VITrVYUM-unsplash.jpg" style="width: 100%">
+<img class="mySlides w3-animate-left" src="C:\Users\ELCOT\Downloads\bench-accounting-nvzvOPQW0gc-unsplash.jpg" style="width: 100%">
+<img class="mySlides w3-animate-fading" src="C:\Users\ELCOT\Downloads\shapelined-_JBKdviweXI-unsplash.jpg" style="width: 100%">
+<img class="mySlides w3-animate-fading" src="C:\Users\ELCOT\Downloads\samantha-gades-BlIhVfXbi9s-unsplash.jpg" style="width: 100%">
+</div>
+
+<script type="text/javascript">
+var a=0;
+carousel();
+
+function carousel()
+{
+var i;
+var x= document.getElementsByClassName("mySlides");
+for(i=0; i<x.length; i++)
+{
+x[i].style.display="none";
+}
+
+a++;  
+if(a > x.length) {a = 1}
+x[a-1].style.display = "block";
+setTimeout(carousel, 5000);
+}
+</script>
+</body>
+</html> 
