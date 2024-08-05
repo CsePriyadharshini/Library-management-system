@@ -1,0 +1,240 @@
+
+/*vv
+htmlvvvvvvvvv5doctor.com Reset Stylesheet
+v1.6.1v
+Last Upvvdated: 2010-09-17
+Author: Rvichard Clark - http://richclarkdesign.com
+Twitter: @vrich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+   list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after{
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/*v change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*-------------------------------------------------Main code INDEX -------------------------------------------------------------------*/
+
+.wrapper
+{
+    height: 650px;
+    width: 1380px;
+    /*background-color: red*/
+}
+header
+{
+    height:130px;
+    width: 1364px;
+    background-color: #000000d9;
+}
+section
+{
+    height:450px;
+    width: 1364px;
+    background-color: grey;
+}
+footer
+{
+    height:80px;
+    width: 1364px;
+    background-color: #000000d9;
+}
+.logo
+{
+    float:left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.logo img
+{
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+li a
+{
+    color: white;
+     text-decoration: none;
+}
+/*nav
+{
+    float: right;
+    word-spacing: 30px;
+    padding: 20px;
+}*/
+
+
+/*nav li
+{
+    display: inline-block;
+    line-height: 80px;
+}*/
+img
+{
+    height: 90px;
+    width: 90px;
+}
+.background-section img
+{
+    height: 530px;
+    width: 1364px;
+    background-size: cover;
+    background-position: center;
+
+}
+.box
+{
+    margin-left: 510px;
+    margin-top: -400px;
+    height: 300px;
+    width: 350px;
+    background-color: #00000030 ;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+
+}
+/*----------------------------------------------------------student_login---------------------------------------------------------*/
+.Login img
+{
+    height: 580px;
+    width: 1364px;
+    background-size: cover;
+    background-position: top;
+    margin-top: -10px;
+   
+}
+.box1
+{
+    margin-left: 510px;
+    margin-top: -450px;
+    height: 380px;
+    width: 450px;
+    background-color: #00000030 ;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+   
+}
+form .login
+{
+    margin:auto 70px;
+}
+input
+{
+    height: 25px;
+    width: 300px;
+}
+/*-------------------------------------------------------------------registration------------------------------------------------*/
+.Registration
+{
+    height: 650px;
+    width: 0px;
+
+}
+.Registration img
+{
+    height: 650px;
+    width: 1364px;
+    background-size: cover;
+    background-position: center;
+}
+.box2
+{
+    height: 550px;
+    width: 450px;
+    background-color: #00000030 ;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 35%;
+}
